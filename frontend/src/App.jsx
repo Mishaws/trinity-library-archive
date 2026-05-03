@@ -12,7 +12,7 @@ export default function App() {
   const [books, setBooks] = useState([]);
   const [newBook, setNewBook] = useState({ title: '', category: 'Manga', status: 'Unread', cover_image: '', total_pages: '' });
 
-  const API_BASE = '[https://trinity-backend.up.railway.app/api](https://trinity-backend.up.railway.app/api)';
+  const API_BASE = '[https://trinity-backend.up.railway.app/api](https://trinity-backend.up.railway.app)';
 
   let librarianMessage = `Welcome to the Archive, ${username}. Ready to catalog?`;
   if (!newBook.title) librarianMessage = "Please fill in the Book Title before registering.";
